@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Form</title>
+</head>
+<body>
+    <h2 style="color: rgb(51, 0, 255);">Captcha Form</h2>
+    <form action="" autocomplete="on">
+
+        <fieldset style="color: rgb(51, 0, 255);"autoComplete="on">
+            <legend style="text-align: center;  color: #18047c; font-size: larger;">Personal Information</legend>
+        <label for="captcha">Enter captcha:</label>
+        <input type="text" id = "captcha" placeholder="Enter Captcha" name ="captcha" > 
+        <br>
+        <br>
+        <label for="nikuser">UserName:</label>
+        <input type="text" id = "nikuser"placeholder="enter username" name>
+        <br>
+        <br>
+          <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="pass">password <span style="color: #7c0404;">*</span></label>
+        <input type="password" id="pass" name = "password" placeholder="enter password" required>
+        <br>
+        <br>
+        <label for="phone">Mobile Number</label>
+        <input type="tel" name="eno" id="phone" placeholder="enter mobile number">
+        <br>
+        <br>
+        <label for="">Age:</label>
+        <input type="number" id = "vayassu" min="1" max="150" placeholder="enter age ">
+        <br>
+        <br>
+         <label for="date">Date of Birth</label> 
+        <input type="date" name="DOB" id="date">
+        <br><br>
+        <label for="">DOB with Time</label>
+        <input type="datetime-local" id = "datetime">
+        <br><br>
+        </fieldset>
+        <br>
+        <fieldset style="color: rgb(16, 10, 179); ">
+            <legend style="text-align: center; color: #04067c; font-size: larger;" >Additional Information</legend>
+        <label for="resume">URL</label>
+        <input type="url" name="resume" id="resume">
+        <br><br>
+        <label for="other">Other</label>
+        <input type="color" name="other" id="other">
+        <br>
+        <br>
+        <label for="image">Image</label>
+        <input type="image"  src="html/Media/margo.jpg" name="image" id="image">
+        <br><br>
+        <label for="pan">Upload Pan card : </label>
+        <input type="file" name="pan" id="pan">
+        <br><br>
+        <label for="range">Range Bar</label>
+        <input type="range" name="range" id="range" min="1" max="5">
+        <br>
+        <br>
+        <label for="tech">Choose the technology:</label>
+        <select name = "tech" id = "tech">
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="JavaScript">JavaScript</option>    
+        </select>
+        <br><br>
+        <label for="comment">Comments</label>
+        <textarea name="comment"  rows="4"  cols="50" min placeholder="Enter Comments...."></textarea>
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset"  value="cancel">cancel</button>
+        </fieldset>
+        <br>
+        <br>       
+        <button style="color: #7c0404;">help center</button>
+    </form>
+</body>
+</html>

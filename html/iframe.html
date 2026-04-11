@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iFrame Navigation</title>
+</head>
+<body>
+    <h1>My WebPage</h1>
+    <p>Click the link in the first box to load Flipkart in the second box.</p>
+
+    <!-- Frame 1: Using srcdoc to put HTML directly inside the frame -->
+    <iframe 
+        srcdoc="<h3>Welcome!</h3><a href='https://www.flipkart.com/' target='frame2'>Visit Flipkart</a>" 
+        name="frame1" 
+        width="300px" 
+        height="300px">
+    </iframe>
+
+    <iframe 
+        src="" 
+        name="frame2" width="300px" height="300px" 
+        style="border: 1px solid black;">
+    </iframe>
+</body>
+</html>

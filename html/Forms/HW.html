@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>HomeWork</title>
+</head>
+
+<body>
+    <h2
+        style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger ;  ;">
+        Student Information</h2>
+
+    <form action="" autocomplete="on">
+        <fieldset style="color: rgb(0, 8, 255);">
+            <legend style="text-align: center;">Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" placeholder="ENter your name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+            <br><br>
+            <label for="phone">PhoneNumber:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone Number">
+            <br><br>
+            <label for="website">Website:</label>
+            <input type="url" name="website" id="website" placeholder="Enter Your Website URL">
+            <br><br>
+            <label for="course">Search Course:</label>
+            <input type="text" name="course" id="course" placeholder="Enter Course Name">
+        </fieldset>
+        <fieldset style="color: rgb(0, 47, 255);" text-align="center">
+            <legend style="text-align: center;">Other Details</legend>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" placeholder="Enter Your Age">
+            <br><br>
+            <label for="DOB">Date of Birth :</label>
+            <input type="date" name="DOB" id="DOB">
+            <br><br>
+            <label for="datetime">Preferred Time:</label>
+            <input type="datetime-local" name="datetime" id="datetime">
+            <br><br>
+            <label for="meeting_datetime">Meeting Date and Time:</label>
+            <input type="datetime-local" name="meeting_datetime" id="meeting_datetime">
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+            <label for="hobbies">Hobbies:</label>
+            <input type="checkbox" name="hobbies" id="hobbies" value="Sports">
+            <label for="hobbies">Sports</label>
+            <input type="checkbox" name="hobbies" id="hobbies" value="Riding">
+            <label for="hobbies">Riding</label>
+            <br><br>
+            <label for="color">Favorite Color:</label>
+            <input type="color" name="color" id="color">
+            <br><br>
+            <label for="skill">Skill Level</label>
+            <input style="color: blue;" type="range" name="skill" id="skill" min="1" max="5">
+        </fieldset>
+
+        <fieldset>
+            <legend>Selection</legend>
+            <label for="course">Course:</label>
+            <select name="course" id="course">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+            </select>
+            <br><br>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" placeholder="Enter your city">
+            <br><br>
+            <label for="file">Upload file:</label>
+            <input type="file" name="file" id="file">
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comments</legend>
+            <textarea name="comments" id="comments" placeholder="Enter your comments" rows=" 5" cols="25"></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

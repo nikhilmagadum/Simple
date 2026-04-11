@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Input Task</title>
+</head>
+<body>
+    <h2>Select Your Order</h2>
+    <form>
+        <!-- Checkboxes for food selection -->
+        <label>
+            <input type="checkbox">Pizza
+        </label><br>
+        <label>
+            <input type="checkbox">Burger
+        </label><br>
+        <label>
+            <input type="checkbox">Pasta
+        </label><br><br>
+
+        <!-- Range slider for selecting quantity -->
+        <label>Quantity (1 to 10):</label>
+        <input type="range" min="1" max="10" value="5">
+        <br><br>
+
+        <!-- File input for uploading image -->
+        <label>Upload a food image (jpg, png, gif):</label>
+        <input type="file" accept=".jpg, .png, .gif">
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
