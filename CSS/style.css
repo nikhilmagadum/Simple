@@ -1,0 +1,13 @@
+
+    p {
+        color: rgb(255, 0, 0);
+        background-color: lightblue;
+        text-align: center;
+    }
+
+    h1 {
+        color: rgb(128, 33, 169);
+        background-color: lightblue;
+        text-align: center;
+        text-decoration: underline;
+    }
